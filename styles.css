@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#cfd8a1, #f7b7a0);
+}
+
+/*#896e7f*/
+.weather {
+    width: 120px;
+    background-color: white;
+    margin: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.icon {
+    width: 80px;
+    position: relative;
+    left: 40%;   
+}
+
+.temp {
+    color: gray;
+    font-size: 22px;
+    margin-left: 0.5rem;
+    margin-top: 25px;
+}
+
+.city {
+    color: silver;
+    font-size: 14px;
+    margin-left: 0.5rem;
+    padding-bottom: 20px;
+}
+
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    max-width: 500px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    letter-spacing: 1px;
+    color: aliceblue;
+}
+
+.back-img {
+    background-image: url(./images/mainfigure.svg);
+    width: 550px;
+    height: 550px;
+    background-size: cover;
+    position: relative;
+}
+
+.content {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    margin: auto; 
+}
+
+button {
+    padding: 0.5rem 3rem; 
+    background-color: #FFCC4D;
+    border-radius: 30px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-size: 18px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.mySpan_buttons {
+    display: flex;
+    position: relative;
+}
+
+.mySpan_button {
+    position: relative;
+    left: 13%;
+    padding: 1rem 0; 
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.mySpan_button:hover {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mySpan_button .my_text {
+    position: relative;
+    font-size: 10px;
+    visibility: hidden;
+}
+
+.mySpan_button:hover .my_text {
+    position: relative;
+    bottom: 50%;
+    visibility: visible;
+}
+
+.img-1 {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    left: 150%;
+    bottom: 70%;
+    right: 30%;
+}
+
+.img-2 {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    right: 120%;
+    top: 70%;
+}
+
+#demo {
+    min-height: 100px;
+}
